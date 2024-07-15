@@ -1,0 +1,1513 @@
+{
+  "telegramName": "Arbitrage manager",
+  "palantirLogin": "uniquetechnique",
+  "primary": {
+    "delays": {
+      "min": "PT0.0S",
+      "max": "PT0.002S"
+    },
+    "tradingPairs": [
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "THETAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ATOMUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "NEARUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "GRTUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "IOSTUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "XLMUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "CFXUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "REEFUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "COMPUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "FILUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "XRPUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "GMTUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "RENUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "GALAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BCHUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "APEUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ADAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BANDUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "HOOKUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "SUSHIUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ALPHAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "KAVAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BELUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "SANDUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ENJUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "CHZUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "FTMUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "AVAXUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "MANAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "SOLUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "LDOUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ARBUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "DEFIUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "OPUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ETHUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "UNIUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "useOrderBookMarketBuilder": false,
+          "useTradeMarketBuilder": false,
+          "useTickerBuilder": false,
+          "includeFunding": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "AAVEUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      }
+
+
+
+
+    ,
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "XMRUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ZECUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "DASHUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "COTIUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ARPAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ETCUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "LTCUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "MASKUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ENSUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "LINKUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "VETUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BNBUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "DOTUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BTCUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "MATICUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "DOGEUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "EOSUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ALGOUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "IOTAUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "BLZUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "NEOUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "TRBUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "AXSUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "ZRXUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "SNXUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "KNCUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      },
+
+      {
+        "pair": {
+          "tradingPairId": {
+            "exchangeId": "BINANCE_FUTURES",
+            "tradingPairId": "RUNEUSDT"
+          },
+          "params": {
+            "initialLeverage": 2,
+            "tickerConnectionNumber": 1,
+            "orderBookConnectionNumber": 1,
+            "tradesConnectionNumber": 1
+          },
+          "includeOrderBook": true,
+          "includeNewTrades": true,
+          "includeMarkPrice": true,
+          "includeTicker": true
+        },
+        "triggerOnOrderBookChange": true,
+        "triggerOnNewTrade": true
+      }  
+  
+    ],
+
+    "accounts": [
+      {
+        "accountId": {
+          "exchangeId": "BINANCE_FUTURES",
+          "accountId": "binance005"
+        },
+        "assets": [
+          "USDT"
+        ],
+        "triggerOnMyAssetChanges": false,
+        "triggerOnMyOrderChanges": true,
+        "triggerOnMyPositionChanges": false
+      }, {
+        "accountId": {
+          "exchangeId": "BINANCE",
+          "accountId": "binance005"
+        },
+        "assets": [
+          "USDT"
+        ],
+        "triggerOnMyAssetChanges": false,
+        "triggerOnMyOrderChanges": true,
+        "triggerOnMyPositionChanges": false
+      }
+    ],
+    "dataFeeds": [
+    ],
+    "customTopics": [
+    ]
+  },
+  "advisers": [],
+  "ghostAdvisers": [
+    {
+      "name": "DataWarmupAdviser",
+      "callPeriod": "PT1S",
+      "customParameters": {
+        "consulName": "statarb_1.0",
+        "url": "http://10.40.0.186:7067/raw_data",
+        "sendTo": "primary"
+      }
+    }
+  ]
+}

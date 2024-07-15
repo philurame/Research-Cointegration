@@ -1,0 +1,19 @@
+version: '3.5'
+services:
+  consul:
+    image: hashicorp/consul
+    environment:
+      - CONSUL_BIND_INTERFACE=eth0
+      - CONSUL_ALLOW_PRIVILEGED_PORTS=
+    ports:
+      - 8500:8500
+    command: /usr/bin/dumb-init /bin/sh /usr/local/bin/docker-entrypoint.sh agent -dev -client 0.0.0.0 -dns-port=53 -datacenter ${CONSUL_ENV_NAME} -domain ${CONSUL_DNS_DOMAIN}
+
+  palantir:
+    image: registry.algostorage.dev/traders/docker-images/palantir:${DOCKER_TAG}
+    environment:
+      JVM_ARGS: |
+        -Dspring.cloud.consul.host=consul
+    ports:
+      - 8710:8710
+
