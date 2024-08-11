@@ -1,4 +1,4 @@
-# cointegration
+# Cointegration Library based on polars
 
 - usage intro backtest: `framework_backtest.ipynb`
 - usage intro production: `framework_production.ipynb`
