@@ -10,7 +10,7 @@ class PARAMS():
   date_from = "2024-04-19"
   date_to   = "2024-05-12"
   save_to   = "data/df_test.parquet"
-  tardis_api_key = 'TD.I0HEnhtiTY7HrwRj.-fhaNGSJ6UoiTe0.MlZKP9nxemP84-F.OW9Ua7PCwcqaFMH.kcb-FuGk1x-NAtn.UtCo'
+  tardis_api_key = 'Your_Tardis_API_Key'
 
   # =========================================================================================================================
   # INDEX PARAMS
